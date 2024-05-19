@@ -4,6 +4,8 @@ import (
 	"crypto"
 )
 
+//go:generate go run github.com/inkeliz/go_inkwasm build .
+
 // Key derives a key from the password, salt and iteration count, returning a
 // []byte of length keylen that can be used as cryptographic key. The key is
 // derived based on the method described as PBKDF2 with the HMAC variant using

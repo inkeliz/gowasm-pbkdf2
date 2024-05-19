@@ -1,10 +1,10 @@
 module github.com/inkeliz/gowasm-pbkdf2
 
-go 1.19
+go 1.22
 
 require (
-	github.com/inkeliz/go_inkwasm v0.0.0-20220912074516-049d3472c98a
-	golang.org/x/crypto v0.0.0-20220829220503-c86fa9a7ed90
+	github.com/inkeliz/go_inkwasm v0.1.23-0.20240519174017-989fbe5b10f6
+	golang.org/x/crypto v0.23.0
 )
 
 require (
@@ -16,9 +16,9 @@ require (
 	github.com/gobwas/ws v1.1.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/mailru/easyjson v0.7.7 // indirect
-	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
-	golang.org/x/sync v0.0.0-20220907140024-f12130a52804 // indirect
-	golang.org/x/sys v0.0.0-20220909162455-aba9fc2a8ff2 // indirect
-	golang.org/x/tools v0.1.12 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/sync v0.7.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/tools v0.21.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 )
